@@ -33,7 +33,7 @@
         </div>
       </div>
       <div class="title-header">
-        <h1>Блог о творчестве, спорте,<br>и образе жизни</h1>
+        <h1>Блог о творчестве, спорте, и образе жизни</h1>
       </div>
     </div>
   </header>
@@ -315,11 +315,11 @@
             <div class="product-prices">
               <span class="product-price-old">
                 <span class="product-price-olds">1000</span>
-                <span class="product-rub">р</span>
+                <span class="product-rub-olds">&#8381</span>
               </span>
               <span class="product-price">
                 <span class="product-price">800</span>
-                <span class="product-rub">р</span>
+                <span class="product-rub">&#8381</span>
               </span>
             </div>
             <button class="product-button" type="button">в магазин</button>
@@ -349,7 +349,7 @@
               </span>
               <span class="product-price">
                 <span class="product-price">3500</span>
-                <span class="product-rub">р</span>
+                <span class="product-rub">&#8381</span>
               </span>
             </div>
             <button class="product-button" type="button">в магазин</button>
@@ -375,11 +375,11 @@
             <div class="product-prices">
               <span class="product-price-old">
                 <span class="product-price-olds">500</span>
-                <span class="product-rub">р</span>
+                <span class="product-rub-olds">&#8381</span>
               </span>
               <span class="product-price">
                 <span class="product-price">400</span>
-                <span class="product-rub">р</span>
+                <span class="product-rub">&#8381</span>
               </span>
             </div>
             <button class="product-button" type="button">в магазин</button>
@@ -409,6 +409,33 @@
     </div>
 
   </footer>
+  
+<form>
+ <div class="popup hidden ">
+   <div class="popup-content" id="popup-contents">
+     <h3 class="title-popup">Ваш фидбек</h3>
+     <label class="popup-close" for="popup-contents"></label>
+     <label class="feedback-label" for="feedback">Как часто вы заходите на сайт?</label>
+<select id="feedback" type="text" required>
+  <option value="everyday" selected>Почти каждый день</option>
+  <option value="weekly">Еженедельно</option>
+  <option value="monthly">Один раз в месяц</option>
+  <option value="rarely">Очень редко</option>
+</select>
+     <legend class="radio-legend">Вы подписаны на e-mail рассылку</legend>
+  <label for="radiohit" class="label-radiohit">
+    <input type="radio" name="question" id="radiohit" class="radiohit">Да</label>
+
+  <label  for="radiodop" class="label-radiodop">  
+    <input type="radio" name="question" id="radiodop" class="radiodop">Нет</label>
+  <legend class="legend-textarea">Раскажите, какой контент вы хотели бы видеть на нашем сайте? </legend>
+  <textarea class="textarea" placeholder="Может больше рецептов?"></textarea>
+  <button class="button-popup">отправить</button>
+     
+   </div>   
+ </div>
+</form>
+  
 </body>
 
 </html>
