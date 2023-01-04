@@ -143,9 +143,23 @@ width: 100%;
 
 .picture-trends{
   width: 100%;
-  filter: brightness(60%);
+/*   filter: brightness(60%); */
+  background: black;
   display: block;
- } 
+  } 
+
+/* вместо filter: brightness(60%) - затемнение */
+.img-trends::after{
+  content: "";
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .6;
+}
+
 
 .title-trends{
   font-size: 1rem;
@@ -798,7 +812,8 @@ sup{
   position: relative;
 }
 
-.popup-close{
+/* фоновая картинка */
+/*.popup-close{
   background-image: url("svg/form-x.svg");
   display: inline-block;
   width: 1rem;
@@ -808,7 +823,15 @@ sup{
   position: absolute;
   top: -25px;
   right: 0;
+}*/
+
+.popup-close{
+  width: 1.25rem;
+  position: absolute;
+  top: -1.5rem;
+  right: 0;
 }
+
 
 .title-popup{
   font-size: 1rem;
@@ -919,9 +942,9 @@ option{
   color: white;  
 }
 
- .hidden{
+/*.hidden{
     display: none;
-  } 
+  }*/
 
 /* pop-up конец */
 
