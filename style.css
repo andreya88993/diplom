@@ -942,9 +942,9 @@ option{
   color: white;  
 }
 
-/*.hidden{
+.hidden{
     display: none;
-  }*/
+  }
 
 /* pop-up конец */
 
