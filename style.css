@@ -95,8 +95,7 @@ body{
   font-size: .65rem;/*  размер шрифта  */
   font-weight: 400;
   color: white;/* цвет шрифта */
-  text-decoration:none;
-   
+  text-decoration:none;  
  }
 
 .menu ul a:hover{
@@ -191,9 +190,11 @@ width: 100%;
   bottom: 5%;
   z-index: 1;
   padding: .5rem 1rem 1rem 1rem;
-  
   } 
 
+.one{
+  top: 40%;
+}
 
 .list-trends{
   list-style-type: none;
