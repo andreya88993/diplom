@@ -184,7 +184,7 @@ width: 100%;
 .page-trends{
   border: 2px solid #b59f5b;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 5%;
   right: 5%;
   bottom: 5%;
@@ -193,7 +193,7 @@ width: 100%;
   } 
 
 .one{
-  top: 40%;
+  top: 45%;
 }
 
 .list-trends{
@@ -346,12 +346,13 @@ text-shadow: 3px 0 2px #b59f5b;
   font-size: .75rem;
   font-weight: 400;
   line-height: 22px;
-  color: #0f0d0e; 
+  color: #0f0d0e;
+  
 }
 
-.lead{
+/* .lead{
   padding-bottom: 10px;
-}
+} */
 
 .aside{
   max-width: 270px;
